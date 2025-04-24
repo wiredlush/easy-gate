@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/r7wx/easy-gate/internal/config"
-	"github.com/r7wx/easy-gate/internal/engine"
-	"github.com/r7wx/easy-gate/internal/routine"
+	"github.com/wiredlush/easy-gate/internal/config"
+	"github.com/wiredlush/easy-gate/internal/engine"
+	"github.com/wiredlush/easy-gate/internal/routine"
 )
 
 func main() {

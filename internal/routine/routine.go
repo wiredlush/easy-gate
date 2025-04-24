@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/r7wx/easy-gate/internal/config"
-	"github.com/r7wx/easy-gate/internal/engine/static"
+	"github.com/wiredlush/easy-gate/internal/config"
+	"github.com/wiredlush/easy-gate/internal/engine/static"
 )
 
 // Routine - Routine struct

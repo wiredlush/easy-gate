@@ -52,5 +52,5 @@ changelog:
 
 release:
   github:
-    owner: r7wx
+    owner: wiredlush
     name: easy-gate

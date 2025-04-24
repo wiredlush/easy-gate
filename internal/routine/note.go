@@ -1,8 +1,8 @@
 package routine
 
 import (
-	"github.com/r7wx/easy-gate/internal/config"
-	"github.com/r7wx/easy-gate/internal/note"
+	"github.com/wiredlush/easy-gate/internal/config"
+	"github.com/wiredlush/easy-gate/internal/note"
 )
 
 func (r *Routine) getNotes(cfg *config.Config) []note.Note {

@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/r7wx/easy-gate/internal/routine"
+	"github.com/wiredlush/easy-gate/internal/routine"
 )
 
 func getAddr(status *routine.Status, c *fiber.Ctx) string {

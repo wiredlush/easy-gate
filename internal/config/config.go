@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/r7wx/easy-gate/internal/group"
-	"github.com/r7wx/easy-gate/internal/theme"
+	"github.com/wiredlush/easy-gate/internal/group"
+	"github.com/wiredlush/easy-gate/internal/theme"
 	"gopkg.in/yaml.v3"
 )
 

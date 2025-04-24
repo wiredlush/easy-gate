@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/r7wx/easy-gate/internal/config"
+	"github.com/wiredlush/easy-gate/internal/config"
 )
 
 var cfgFilePath string

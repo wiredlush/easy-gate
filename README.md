@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/r7wx/easy-gate">
+  <a href="https://github.com/wiredlush/easy-gate">
      <picture>
        <img width="90" src="assets/logo.svg" /></a>
     </picture>
@@ -7,12 +7,11 @@
   <br />
   <b>easy-gate</b>
   <br /> <br />
-  <img src="https://img.shields.io/github/v/release/r7wx/easy-gate" alt="Release" />
-  <a href="https://github.com/r7wx/easy-gate/actions/workflows/build.yml">
-  <img src="https://github.com/r7wx/easy-gate/actions/workflows/build.yml/badge.svg"/></a>
-  <a href="https://github.com/r7wx/easy-gate/actions/workflows/test.yml">
-  <img src="https://github.com/r7wx/easy-gate/actions/workflows/test.yml/badge.svg"/></a>
-  <a href="https://www.codefactor.io/repository/github/r7wx/easy-gate"><img src="https://www.codefactor.io/repository/github/r7wx/easy-gate/badge?s=3531cadc71a73618609de429289d9524a38c33cd" alt="CodeFactor" /></a>
+  <img src="https://img.shields.io/github/v/release/wiredlush/easy-gate" alt="Release" />
+  <a href="https://github.com/wiredlush/easy-gate/actions/workflows/build.yml">
+  <img src="https://github.com/wiredlush/easy-gate/actions/workflows/build.yml/badge.svg"/></a>
+  <a href="https://github.com/wiredlush/easy-gate/actions/workflows/test.yml">
+  <img src="https://github.com/wiredlush/easy-gate/actions/workflows/test.yml/badge.svg"/></a>
 </p>
 <h4 align="center">A gate to your self hosted infrastructure</h3>
 
@@ -43,7 +42,7 @@ In order to run Easy Gate as a standalone executable, you can build it from sour
 **Build from source:**
 
 ```bash
-git clone https://github.com/r7wx/easy-gate.git
+git clone https://github.com/wiredlush/easy-gate.git
 cd easy-gate
 make
 ```
@@ -69,7 +68,7 @@ docker run -d --name=easy-gate \
   -p 8080:8080 \
   -v /path/to/easy-gate.json:/etc/easy-gate/easy-gate.json \
   --restart unless-stopped \
-  r7wx/easy-gate:latest
+  wiredlush/easy-gate:latest
 ```
 
 <p align="justify">
@@ -82,7 +81,7 @@ docker run -d --name=easy-gate \
   -v /path/to/easy-gate.yml:/another/path/easy-gate.yml \
   --restart unless-stopped \
   -e EASY_GATE_CONFIG_PATH=/another/path/easy-gate.yml \
-  r7wx/easy-gate:latest
+  wiredlush/easy-gate:latest
 ```
 
 ### Docker Compose
@@ -92,7 +91,7 @@ You can run Easy Gate by using the provided docker-compose file:
 ```yml
 services:
   easy-gate:
-    image: r7wx/easy-gate:latest
+    image: wiredlush/easy-gate:latest
     build: .
     container_name: easy-gate
     restart: unless-stopped
@@ -113,7 +112,7 @@ By default the Easy Gate image will look for a configuration file in /etc/easy-g
 ```yml
 services:
   easy-gate:
-    image: r7wx/easy-gate:latest
+    image: wiredlush/easy-gate:latest
     build: .
     container_name: easy-gate
     restart: unless-stopped
@@ -134,7 +133,7 @@ If you need to host Easy Gate behind an already running nginx instance (or other
 ```yml
 services:
   easy-gate:
-    image: r7wx/easy-gate:latest
+    image: wiredlush/easy-gate:latest
     container_name: easy-gate
     expose:
       - 8080

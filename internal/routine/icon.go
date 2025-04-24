@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/r7wx/easy-gate/internal/config"
+	"github.com/wiredlush/easy-gate/internal/config"
 )
 
 func (r *Routine) getIconData(service config.Service) template.URL {

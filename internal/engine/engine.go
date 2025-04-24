@@ -8,10 +8,10 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/template/html/v2"
-	"github.com/r7wx/easy-gate/internal/config"
-	"github.com/r7wx/easy-gate/internal/engine/static"
-	"github.com/r7wx/easy-gate/internal/engine/template"
-	"github.com/r7wx/easy-gate/internal/routine"
+	"github.com/wiredlush/easy-gate/internal/config"
+	"github.com/wiredlush/easy-gate/internal/engine/static"
+	"github.com/wiredlush/easy-gate/internal/engine/template"
+	"github.com/wiredlush/easy-gate/internal/routine"
 )
 
 // Engine - Easy Gate engine struct

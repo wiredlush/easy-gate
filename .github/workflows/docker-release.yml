@@ -32,5 +32,5 @@ jobs:
 
       - name: Publish Docker Images
         run: |
-          docker buildx build --platform=linux/amd64,linux/arm/v7,linux/arm64/v8 -t r7wx/easy-gate:$RELEASE_VERSION --push .
-          docker buildx build --platform=linux/amd64,linux/arm/v7,linux/arm64/v8 -t r7wx/easy-gate:latest --push .
+          docker buildx build --platform=linux/amd64,linux/arm/v7,linux/arm64/v8 -t wiredlush/easy-gate:$RELEASE_VERSION --push .
+          docker buildx build --platform=linux/amd64,linux/arm/v7,linux/arm64/v8 -t wiredlush/easy-gate:latest --push .

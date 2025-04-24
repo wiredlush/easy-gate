@@ -3,8 +3,8 @@ package routine
 import (
 	"html/template"
 
-	"github.com/r7wx/easy-gate/internal/config"
-	"github.com/r7wx/easy-gate/internal/service"
+	"github.com/wiredlush/easy-gate/internal/config"
+	"github.com/wiredlush/easy-gate/internal/service"
 )
 
 func (r *Routine) getServices(cfg *config.Config) []service.Service {

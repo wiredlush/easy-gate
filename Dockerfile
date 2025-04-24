@@ -1,4 +1,4 @@
-FROM golang:1.20 AS go-builder
+FROM golang:1.23 AS go-builder
 WORKDIR /easy-gate
 COPY . .
 RUN make

@@ -1,10 +1,10 @@
 package engine
 
 import (
-	"github.com/r7wx/easy-gate/internal/group"
-	"github.com/r7wx/easy-gate/internal/note"
-	"github.com/r7wx/easy-gate/internal/routine"
-	"github.com/r7wx/easy-gate/internal/service"
+	"github.com/wiredlush/easy-gate/internal/group"
+	"github.com/wiredlush/easy-gate/internal/note"
+	"github.com/wiredlush/easy-gate/internal/routine"
+	"github.com/wiredlush/easy-gate/internal/service"
 )
 
 type data struct {
